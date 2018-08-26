@@ -44,9 +44,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1.Location = new System.Drawing.Point(214, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(335, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 454);
+            this.pictureBox1.Size = new System.Drawing.Size(57, 263);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

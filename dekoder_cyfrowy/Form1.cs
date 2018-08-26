@@ -13,9 +13,12 @@ namespace dekoder_cyfrowy
     public partial class Form1 : Form
     {
         Int16 pierwszy = 0;
+        
         public Form1()
         {
+            
             InitializeComponent();
+            pictureBox1.Image = Properties.Resources._0;
         }
 
         private void button0_Click(object sender, EventArgs e)
@@ -29,13 +32,24 @@ namespace dekoder_cyfrowy
 
             switch (pierwszy)
             {
-                case 1: pictureBox1.Image = Properties.Resources._1;
+                case 1:
+                    pictureBox1.Image = Properties.Resources._1;
                     pictureBox1.Refresh();
                     pictureBox1.Visible = true;
                     break;
 
-                //MessageBox.Show(pierwszyStr); break;
-                case 2: MessageBox.Show(pierwszyStr); break;
+                case 2:
+                    pictureBox1.Image = Properties.Resources._2;
+                    pictureBox1.Refresh();
+                    pictureBox1.Visible = true;
+                    break;
+
+                case 3:
+                    pictureBox1.Image = Properties.Resources._3;
+                    pictureBox1.Refresh();
+                    pictureBox1.Visible = true;
+                    break;
+
             };
             
         }
