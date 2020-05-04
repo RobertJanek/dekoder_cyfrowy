@@ -16,7 +16,6 @@ namespace dekoder_cyfrowy
         
         public Form1()
         {
-            
             InitializeComponent();
             pictureBox1.Image = Properties.Resources._0;
         }
