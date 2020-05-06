@@ -22,28 +22,29 @@ namespace dekoder_cyfrowy
 
         private void button0_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true) pierwszy = 1;
-            if (radioButton2.Checked == true) pierwszy = 2;
-            if (radioButton3.Checked == true) pierwszy = 3;
 
+           //rzutowanie liczby do stringa (tablicy charów);
+            string numer = Convert.ToString(numericUpDown1.Value);
+            label1.Text = numer;
+           
             //rzutowanie 
             String pierwszyStr = pierwszy.ToString();
-
-            switch (pierwszy)
+            
+            switch (numer)
             {
-                case 1:
+                case "1":
                     pictureBox1.Image = Properties.Resources._1;
                     pictureBox1.Refresh();
                     pictureBox1.Visible = true;
                     break;
 
-                case 2:
+                case "2":
                     pictureBox1.Image = Properties.Resources._2;
                     pictureBox1.Refresh();
                     pictureBox1.Visible = true;
                     break;
 
-                case 3:
+                case "3":
                     pictureBox1.Image = Properties.Resources._3;
                     pictureBox1.Refresh();
                     pictureBox1.Visible = true;
