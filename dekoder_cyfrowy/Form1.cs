@@ -62,6 +62,24 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
                     pictureBox1.Visible = true;
                     break;
 
+                case '4':
+                    pictureBox1.Image = Properties.Resources._4;
+                    pictureBox1.Refresh();
+                    pictureBox1.Visible = true;
+                    break;
+
+                case '5':
+                    pictureBox1.Image = Properties.Resources._5;
+                    pictureBox1.Refresh();
+                    pictureBox1.Visible = true;
+                    break;
+
+                case '6':
+                    pictureBox1.Image = Properties.Resources._6;
+                    pictureBox1.Refresh();
+                    pictureBox1.Visible = true;
+                    break;
+
             };
             
         }
