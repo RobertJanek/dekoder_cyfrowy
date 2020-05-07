@@ -21,67 +21,86 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         {   //przekazano do tej procedury nazwę Pictureboxa który właśnie ustawiamy (jeden na raz)
             //dodatkowo przekazuję sobie znak (cyferkę) i switchem ustawię właściwy obrazek
             
-            //ify docelowo zastąpię switchem
-            if (cyfra == '5')
-                ktory_pikczer.Image = Properties.Resources._5;
-            if (cyfra == '7')
-                ktory_pikczer.Image = Properties.Resources._7;
-
-            ktory_pikczer.Refresh();
-            ktory_pikczer.Visible = true;
-            }
-        private void button0_Click(object sender, EventArgs e)
-        {
-
-           //rzutowanie liczby do stringa (tablicy charów);
-            string numer = Convert.ToString(numericUpDown1.Value);
-            label1.Text = numer;
-
-            dekoduj(pictureBox2,'5');   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
-            dekoduj(pictureBox3, '7');
-            //dekoduj(pictureBox1, numer[0]);
-            
-            //tego switcha przenieść do funkcji dekoduj()
-            switch (numer[0])
+            switch (cyfra)
             {
                 case '1':
-                    pictureBox1.Image = Properties.Resources._1;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._1;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
                 case '2':
-                    pictureBox1.Image = Properties.Resources._2;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._2;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
                 case '3':
-                    pictureBox1.Image = Properties.Resources._3;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._3;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
                 case '4':
-                    pictureBox1.Image = Properties.Resources._4;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._4;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
                 case '5':
-                    pictureBox1.Image = Properties.Resources._5;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._5;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
                 case '6':
-                    pictureBox1.Image = Properties.Resources._6;
-                    pictureBox1.Refresh();
-                    pictureBox1.Visible = true;
+                    ktory_pikczer.Image = Properties.Resources._6;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
+                    break;
+
+                case '7':
+                    ktory_pikczer.Image = Properties.Resources._7;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
+                    break;
+
+                case '8':
+                    ktory_pikczer.Image = Properties.Resources._8;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
+                    break;
+
+                case '9':
+                    ktory_pikczer.Image = Properties.Resources._9;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
                     break;
 
             };
-            
+        }
+        private void button0_Click(object sender, EventArgs e)
+        {
+
+            string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
+            label1.Text = numer;
+
+            dekoduj(pictureBox1, numer[0]);
+            dekoduj(pictureBox2, numer[1]);   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
+            dekoduj(pictureBox3, numer[2]);
+
+            dekoduj(pictureBox4, numer[3]);
+            dekoduj(pictureBox5, numer[4]);
+            dekoduj(pictureBox6, numer[5]);
+
+            dekoduj(pictureBox7, numer[6]);
+            dekoduj(pictureBox8, numer[7]);
+            dekoduj(pictureBox9, numer[8]);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
