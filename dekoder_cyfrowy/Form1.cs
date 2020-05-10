@@ -96,6 +96,9 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox7, numer[6]);
             dekoduj(pictureBox8, numer[7]);
             dekoduj(pictureBox9, numer[8]);
+
+            label1.Text = numer[0]+"";
+
         }
 
         private void label1_Click(object sender, EventArgs e)
