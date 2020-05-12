@@ -319,6 +319,7 @@
             0,
             0,
             0});
+            //this.numMiesiac.ValueChanged += new System.EventHandler(this.numMiesiac_ValueChanged);
             // 
             // numRok
             // 

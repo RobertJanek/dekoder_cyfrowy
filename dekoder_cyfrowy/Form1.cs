@@ -85,6 +85,12 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
             numer = numer + "000000000";        //za krótki string wysypywał prog.
 
+            string miesiac=Convert.ToString(numMiesiac.Value);
+            if (numMiesiac.Value < 10)
+                miesiac = "0" + miesiac;
+            MessageBox.Show(miesiac,"komunikat potwierdzający");
+
+
             //pierwsza kolumna
             dekoduj(pictureBox1K_01, '6');
             dekoduj(pictureBox1K_02, '0');
@@ -106,9 +112,6 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
