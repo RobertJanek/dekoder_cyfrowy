@@ -85,6 +85,11 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
             numer = numer + "000000000";        //za krótki string wysypywał prog.
 
+            //pierwsza kolumna
+            dekoduj(pictureBox1K_01, '6');
+            dekoduj(pictureBox1K_02, '0');
+            dekoduj(pictureBox1K_03, '2');
+
             dekoduj(pictureBox1, numer[0]);
             dekoduj(pictureBox2, numer[1]);   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
             dekoduj(pictureBox3, numer[2]);
