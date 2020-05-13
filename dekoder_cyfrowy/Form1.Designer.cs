@@ -61,6 +61,10 @@
             this.pictureBox2K_01 = new System.Windows.Forms.PictureBox();
             this.pictureBox2K_02 = new System.Windows.Forms.PictureBox();
             this.pictureBox2K_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_03 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -79,6 +83,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -225,7 +232,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(65, 209);
+            this.label4.Location = new System.Drawing.Point(42, 209);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 18;
@@ -234,7 +241,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(64, 174);
+            this.label5.Location = new System.Drawing.Point(41, 174);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 19;
@@ -243,7 +250,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(64, 138);
+            this.label6.Location = new System.Drawing.Point(41, 138);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(13, 13);
             this.label6.TabIndex = 20;
@@ -252,7 +259,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(106, 209);
+            this.label7.Location = new System.Drawing.Point(65, 209);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(13, 13);
             this.label7.TabIndex = 21;
@@ -261,7 +268,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(106, 173);
+            this.label8.Location = new System.Drawing.Point(65, 173);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(13, 13);
             this.label8.TabIndex = 22;
@@ -270,7 +277,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(106, 138);
+            this.label9.Location = new System.Drawing.Point(65, 138);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(13, 13);
             this.label9.TabIndex = 23;
@@ -422,11 +429,54 @@
             this.pictureBox2K_03.TabIndex = 36;
             this.pictureBox2K_03.TabStop = false;
             // 
+            // pictureBox3K_01
+            // 
+            this.pictureBox3K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_01.Location = new System.Drawing.Point(220, 364);
+            this.pictureBox3K_01.Name = "pictureBox3K_01";
+            this.pictureBox3K_01.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_01.TabIndex = 37;
+            this.pictureBox3K_01.TabStop = false;
+            // 
+            // pictureBox3K_02
+            // 
+            this.pictureBox3K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_02.Location = new System.Drawing.Point(220, 192);
+            this.pictureBox3K_02.Name = "pictureBox3K_02";
+            this.pictureBox3K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_02.TabIndex = 38;
+            this.pictureBox3K_02.TabStop = false;
+            // 
+            // pictureBox3K_03
+            // 
+            this.pictureBox3K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_03.Location = new System.Drawing.Point(220, 20);
+            this.pictureBox3K_03.Name = "pictureBox3K_03";
+            this.pictureBox3K_03.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_03.TabIndex = 39;
+            this.pictureBox3K_03.TabStop = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(10, 336);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(131, 13);
+            this.label15.TabIndex = 40;
+            this.label15.Text = "111 - sprawdzenie: [dd, m]";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 556);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.pictureBox3K_03);
+            this.Controls.Add(this.pictureBox3K_02);
+            this.Controls.Add(this.pictureBox3K_01);
             this.Controls.Add(this.pictureBox2K_03);
             this.Controls.Add(this.pictureBox2K_02);
             this.Controls.Add(this.pictureBox2K_01);
@@ -480,6 +530,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -520,6 +573,10 @@
         private System.Windows.Forms.PictureBox pictureBox2K_01;
         private System.Windows.Forms.PictureBox pictureBox2K_02;
         private System.Windows.Forms.PictureBox pictureBox2K_03;
+        private System.Windows.Forms.PictureBox pictureBox3K_01;
+        private System.Windows.Forms.PictureBox pictureBox3K_02;
+        private System.Windows.Forms.PictureBox pictureBox3K_03;
+        private System.Windows.Forms.Label label15;
     }
 }
 

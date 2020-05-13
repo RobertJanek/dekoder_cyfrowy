@@ -87,14 +87,10 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             string miesiac=Convert.ToString(numMiesiac.Value);
             if (numMiesiac.Value < 10)
                 miesiac = "0" + miesiac;
-            MessageBox.Show(miesiac, "miesiąc sprawdzenia");
-
-            label14.Text = "11"+miesiac[0]+" - sprawdzenie: [dd, m]";
 
             string rok = Convert.ToString(numRok.Value);
             if (numRok.Value < 10)
                 rok = "0" + rok;
-            MessageBox.Show(rok , "miesiąc sprawdzenia");
 
             //pierwsza kolumna
             dekoduj(pictureBox1K_01, '6');      //typ ASK, stałe
@@ -102,12 +98,21 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox1K_03, '2');      //strefa, stałe
 
             label1.Text = "6"; label2.Text = "0"; label3.Text = "2";
+            label11.Text = "602 11" + miesiac[0] + " " + miesiac[1] + rok[0] + rok[1];
 
             dekoduj(pictureBox2K_01, '1');          //dzień sprawdzenia, nie drukowany
             dekoduj(pictureBox2K_02, '1');          //dzień sprawdzenia, nie drukowany
-            dekoduj(pictureBox2K_03, miesiac[0]);   //miesiąc sprawdzenia, dziesiątki [0,1]
+            dekoduj(pictureBox2K_03, miesiac[0]);   //miesiąc sprawdzenia, dziesiątki [0..1]
 
             label4.Text = "1"; label5.Text = "1"; label6.Text = miesiac[0]+"";
+            label14.Text = "11" + miesiac[0] + " - sprawdzenie: [dd, m]";
+
+            dekoduj(pictureBox3K_01, miesiac[1]);   //miesiąc sprawdzenia, jedności [0..9]
+            dekoduj(pictureBox3K_02, rok[0]);       //rok sprawdzenia, dziesiątki [0..9]
+            dekoduj(pictureBox3K_03, rok[1]);       //rok sprawdzenia, jedności [0..9]
+
+            label7.Text = miesiac[1] + ""; label8.Text = rok[0] + ""; label9.Text = rok[1] + "";
+            label15.Text =  ""+ miesiac[1] + rok[0] + rok[1] + " - sprawdzenie: [m, rr]";
 
             dekoduj(pictureBox1, numer[0]);
             dekoduj(pictureBox2, numer[1]);   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
@@ -120,8 +125,6 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox7, numer[6]);
             dekoduj(pictureBox8, numer[7]);
             dekoduj(pictureBox9, numer[8]);
-
-            //label1.Text = numer[0]+"";
 
         }
 
