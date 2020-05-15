@@ -66,7 +66,7 @@
             this.pictureBox3K_03 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox4K_01 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4K_02 = new System.Windows.Forms.PictureBox();
             this.pictureBox4K_03 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -94,14 +94,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_03)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1.Location = new System.Drawing.Point(345, 365);
+            this.pictureBox1.Location = new System.Drawing.Point(423, 369);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(28, 166);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +135,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2.Location = new System.Drawing.Point(345, 193);
+            this.pictureBox2.Location = new System.Drawing.Point(423, 197);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 166);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -145,7 +145,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3.Location = new System.Drawing.Point(345, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(423, 25);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(28, 166);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,7 +155,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4.Location = new System.Drawing.Point(379, 365);
+            this.pictureBox4.Location = new System.Drawing.Point(457, 369);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(28, 166);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -165,7 +165,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox5.Location = new System.Drawing.Point(379, 193);
+            this.pictureBox5.Location = new System.Drawing.Point(457, 197);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(28, 166);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -175,7 +175,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox6.Location = new System.Drawing.Point(379, 21);
+            this.pictureBox6.Location = new System.Drawing.Point(457, 25);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(28, 166);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,7 +185,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox7.Location = new System.Drawing.Point(413, 365);
+            this.pictureBox7.Location = new System.Drawing.Point(491, 369);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(28, 166);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -195,7 +195,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox8.Location = new System.Drawing.Point(413, 193);
+            this.pictureBox8.Location = new System.Drawing.Point(491, 197);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(28, 166);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -205,7 +205,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox9.Location = new System.Drawing.Point(413, 21);
+            this.pictureBox9.Location = new System.Drawing.Point(491, 25);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(28, 166);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -375,14 +375,14 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(10, 323);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 13);
+            this.label14.Size = new System.Drawing.Size(19, 13);
             this.label14.TabIndex = 30;
-            this.label14.Text = "111 - sprawdzenie: [dd, m]";
+            this.label14.Text = "14";
             // 
             // pictureBox1K_01
             // 
             this.pictureBox1K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_01.Location = new System.Drawing.Point(152, 364);
+            this.pictureBox1K_01.Location = new System.Drawing.Point(230, 368);
             this.pictureBox1K_01.Name = "pictureBox1K_01";
             this.pictureBox1K_01.Size = new System.Drawing.Size(28, 166);
             this.pictureBox1K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -392,7 +392,7 @@
             // pictureBox1K_02
             // 
             this.pictureBox1K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_02.Location = new System.Drawing.Point(152, 192);
+            this.pictureBox1K_02.Location = new System.Drawing.Point(230, 196);
             this.pictureBox1K_02.Name = "pictureBox1K_02";
             this.pictureBox1K_02.Size = new System.Drawing.Size(28, 166);
             this.pictureBox1K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -402,7 +402,7 @@
             // pictureBox1K_03
             // 
             this.pictureBox1K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_03.Location = new System.Drawing.Point(152, 20);
+            this.pictureBox1K_03.Location = new System.Drawing.Point(230, 24);
             this.pictureBox1K_03.Name = "pictureBox1K_03";
             this.pictureBox1K_03.Size = new System.Drawing.Size(28, 166);
             this.pictureBox1K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -412,7 +412,7 @@
             // pictureBox2K_01
             // 
             this.pictureBox2K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_01.Location = new System.Drawing.Point(186, 364);
+            this.pictureBox2K_01.Location = new System.Drawing.Point(264, 368);
             this.pictureBox2K_01.Name = "pictureBox2K_01";
             this.pictureBox2K_01.Size = new System.Drawing.Size(28, 166);
             this.pictureBox2K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -422,7 +422,7 @@
             // pictureBox2K_02
             // 
             this.pictureBox2K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_02.Location = new System.Drawing.Point(186, 192);
+            this.pictureBox2K_02.Location = new System.Drawing.Point(264, 196);
             this.pictureBox2K_02.Name = "pictureBox2K_02";
             this.pictureBox2K_02.Size = new System.Drawing.Size(28, 166);
             this.pictureBox2K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -432,7 +432,7 @@
             // pictureBox2K_03
             // 
             this.pictureBox2K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_03.Location = new System.Drawing.Point(186, 21);
+            this.pictureBox2K_03.Location = new System.Drawing.Point(264, 25);
             this.pictureBox2K_03.Name = "pictureBox2K_03";
             this.pictureBox2K_03.Size = new System.Drawing.Size(28, 166);
             this.pictureBox2K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -442,7 +442,7 @@
             // pictureBox3K_01
             // 
             this.pictureBox3K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_01.Location = new System.Drawing.Point(220, 364);
+            this.pictureBox3K_01.Location = new System.Drawing.Point(298, 368);
             this.pictureBox3K_01.Name = "pictureBox3K_01";
             this.pictureBox3K_01.Size = new System.Drawing.Size(28, 166);
             this.pictureBox3K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -452,7 +452,7 @@
             // pictureBox3K_02
             // 
             this.pictureBox3K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_02.Location = new System.Drawing.Point(220, 192);
+            this.pictureBox3K_02.Location = new System.Drawing.Point(298, 196);
             this.pictureBox3K_02.Name = "pictureBox3K_02";
             this.pictureBox3K_02.Size = new System.Drawing.Size(28, 166);
             this.pictureBox3K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -462,7 +462,7 @@
             // pictureBox3K_03
             // 
             this.pictureBox3K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_03.Location = new System.Drawing.Point(220, 20);
+            this.pictureBox3K_03.Location = new System.Drawing.Point(298, 24);
             this.pictureBox3K_03.Name = "pictureBox3K_03";
             this.pictureBox3K_03.Size = new System.Drawing.Size(28, 166);
             this.pictureBox3K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -474,34 +474,34 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(10, 336);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 13);
+            this.label15.Size = new System.Drawing.Size(19, 13);
             this.label15.TabIndex = 40;
-            this.label15.Text = "111 - sprawdzenie: [dd, m]";
+            this.label15.Text = "15";
             // 
             // pictureBox4K_01
             // 
             this.pictureBox4K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4K_01.Location = new System.Drawing.Point(254, 365);
+            this.pictureBox4K_01.Location = new System.Drawing.Point(332, 369);
             this.pictureBox4K_01.Name = "pictureBox4K_01";
             this.pictureBox4K_01.Size = new System.Drawing.Size(28, 166);
             this.pictureBox4K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4K_01.TabIndex = 41;
             this.pictureBox4K_01.TabStop = false;
             // 
-            // pictureBox5K_02
+            // pictureBox4K_02
             // 
-            this.pictureBox5K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox5K_02.Location = new System.Drawing.Point(254, 193);
-            this.pictureBox5K_02.Name = "pictureBox5K_02";
-            this.pictureBox5K_02.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox5K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5K_02.TabIndex = 42;
-            this.pictureBox5K_02.TabStop = false;
+            this.pictureBox4K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox4K_02.Location = new System.Drawing.Point(332, 197);
+            this.pictureBox4K_02.Name = "pictureBox4K_02";
+            this.pictureBox4K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox4K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4K_02.TabIndex = 42;
+            this.pictureBox4K_02.TabStop = false;
             // 
             // pictureBox4K_03
             // 
             this.pictureBox4K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4K_03.Location = new System.Drawing.Point(254, 21);
+            this.pictureBox4K_03.Location = new System.Drawing.Point(332, 25);
             this.pictureBox4K_03.Name = "pictureBox4K_03";
             this.pictureBox4K_03.Size = new System.Drawing.Size(28, 166);
             this.pictureBox4K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -540,9 +540,9 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(10, 349);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(131, 13);
+            this.label19.Size = new System.Drawing.Size(19, 13);
             this.label19.TabIndex = 47;
-            this.label19.Text = "111 - sprawdzenie: [dd, m]";
+            this.label19.Text = "19";
             // 
             // Form1
             // 
@@ -554,7 +554,7 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.pictureBox4K_03);
-            this.Controls.Add(this.pictureBox5K_02);
+            this.Controls.Add(this.pictureBox4K_02);
             this.Controls.Add(this.pictureBox4K_01);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.pictureBox3K_03);
@@ -617,7 +617,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_03)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -664,7 +664,7 @@
         private System.Windows.Forms.PictureBox pictureBox3K_03;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox4K_01;
-        private System.Windows.Forms.PictureBox pictureBox5K_02;
+        private System.Windows.Forms.PictureBox pictureBox4K_02;
         private System.Windows.Forms.PictureBox pictureBox4K_03;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
