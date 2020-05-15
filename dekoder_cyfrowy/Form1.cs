@@ -77,6 +77,12 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
                     ktory_pikczer.Visible = true;
                     break;
 
+                case '0':
+                    ktory_pikczer.Image = Properties.Resources._0;
+                    ktory_pikczer.Refresh();
+                    ktory_pikczer.Visible = true;
+                    break;
+
             };
         }
         private void button0_Click(object sender, EventArgs e)
@@ -133,11 +139,14 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox6, numer[5]);
 
             dekoduj(pictureBox7, numer[6]);
-            dekoduj(pictureBox8, numer[7]);
+            dekoduj(pictureBox8, numer[7]); 
             dekoduj(pictureBox9, numer[8]);
 
         }
 
-      
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,17 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button0 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,58 +46,57 @@
             this.numRok = new System.Windows.Forms.NumericUpDown();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox1K_01 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1K_02 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1K_03 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2K_01 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2K_02 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2K_03 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3K_01 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3K_02 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3K_03 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox4K_01 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4K_02 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4K_03 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox4K_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4K_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3K_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2K_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2K_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1K_03 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1K_02 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1K_01 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMiesiac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRok)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_03)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1.Location = new System.Drawing.Point(423, 369);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button0
             // 
@@ -131,86 +121,6 @@
             this.numericUpDown1.Size = new System.Drawing.Size(129, 20);
             this.numericUpDown1.TabIndex = 1;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.button0_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2.Location = new System.Drawing.Point(423, 197);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3.Location = new System.Drawing.Point(423, 25);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4.Location = new System.Drawing.Point(457, 369);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox5.Location = new System.Drawing.Point(457, 197);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox6.Location = new System.Drawing.Point(457, 25);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox7.Location = new System.Drawing.Point(491, 369);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 12;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox8.Location = new System.Drawing.Point(491, 197);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 13;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox9.Location = new System.Drawing.Point(491, 25);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 14;
-            this.pictureBox9.TabStop = false;
             // 
             // label1
             // 
@@ -379,96 +289,6 @@
             this.label14.TabIndex = 30;
             this.label14.Text = "14";
             // 
-            // pictureBox1K_01
-            // 
-            this.pictureBox1K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_01.Location = new System.Drawing.Point(230, 368);
-            this.pictureBox1K_01.Name = "pictureBox1K_01";
-            this.pictureBox1K_01.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox1K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1K_01.TabIndex = 31;
-            this.pictureBox1K_01.TabStop = false;
-            // 
-            // pictureBox1K_02
-            // 
-            this.pictureBox1K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_02.Location = new System.Drawing.Point(230, 196);
-            this.pictureBox1K_02.Name = "pictureBox1K_02";
-            this.pictureBox1K_02.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox1K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1K_02.TabIndex = 32;
-            this.pictureBox1K_02.TabStop = false;
-            // 
-            // pictureBox1K_03
-            // 
-            this.pictureBox1K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox1K_03.Location = new System.Drawing.Point(230, 24);
-            this.pictureBox1K_03.Name = "pictureBox1K_03";
-            this.pictureBox1K_03.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox1K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1K_03.TabIndex = 33;
-            this.pictureBox1K_03.TabStop = false;
-            // 
-            // pictureBox2K_01
-            // 
-            this.pictureBox2K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_01.Location = new System.Drawing.Point(264, 368);
-            this.pictureBox2K_01.Name = "pictureBox2K_01";
-            this.pictureBox2K_01.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox2K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2K_01.TabIndex = 34;
-            this.pictureBox2K_01.TabStop = false;
-            // 
-            // pictureBox2K_02
-            // 
-            this.pictureBox2K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_02.Location = new System.Drawing.Point(264, 196);
-            this.pictureBox2K_02.Name = "pictureBox2K_02";
-            this.pictureBox2K_02.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox2K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2K_02.TabIndex = 35;
-            this.pictureBox2K_02.TabStop = false;
-            // 
-            // pictureBox2K_03
-            // 
-            this.pictureBox2K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox2K_03.Location = new System.Drawing.Point(264, 25);
-            this.pictureBox2K_03.Name = "pictureBox2K_03";
-            this.pictureBox2K_03.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox2K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2K_03.TabIndex = 36;
-            this.pictureBox2K_03.TabStop = false;
-            // 
-            // pictureBox3K_01
-            // 
-            this.pictureBox3K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_01.Location = new System.Drawing.Point(298, 368);
-            this.pictureBox3K_01.Name = "pictureBox3K_01";
-            this.pictureBox3K_01.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox3K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3K_01.TabIndex = 37;
-            this.pictureBox3K_01.TabStop = false;
-            // 
-            // pictureBox3K_02
-            // 
-            this.pictureBox3K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_02.Location = new System.Drawing.Point(298, 196);
-            this.pictureBox3K_02.Name = "pictureBox3K_02";
-            this.pictureBox3K_02.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox3K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3K_02.TabIndex = 38;
-            this.pictureBox3K_02.TabStop = false;
-            // 
-            // pictureBox3K_03
-            // 
-            this.pictureBox3K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox3K_03.Location = new System.Drawing.Point(298, 24);
-            this.pictureBox3K_03.Name = "pictureBox3K_03";
-            this.pictureBox3K_03.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox3K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3K_03.TabIndex = 39;
-            this.pictureBox3K_03.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -477,36 +297,6 @@
             this.label15.Size = new System.Drawing.Size(19, 13);
             this.label15.TabIndex = 40;
             this.label15.Text = "15";
-            // 
-            // pictureBox4K_01
-            // 
-            this.pictureBox4K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4K_01.Location = new System.Drawing.Point(332, 369);
-            this.pictureBox4K_01.Name = "pictureBox4K_01";
-            this.pictureBox4K_01.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox4K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4K_01.TabIndex = 41;
-            this.pictureBox4K_01.TabStop = false;
-            // 
-            // pictureBox4K_02
-            // 
-            this.pictureBox4K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4K_02.Location = new System.Drawing.Point(332, 197);
-            this.pictureBox4K_02.Name = "pictureBox4K_02";
-            this.pictureBox4K_02.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox4K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4K_02.TabIndex = 42;
-            this.pictureBox4K_02.TabStop = false;
-            // 
-            // pictureBox4K_03
-            // 
-            this.pictureBox4K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
-            this.pictureBox4K_03.Location = new System.Drawing.Point(332, 25);
-            this.pictureBox4K_03.Name = "pictureBox4K_03";
-            this.pictureBox4K_03.Size = new System.Drawing.Size(28, 166);
-            this.pictureBox4K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4K_03.TabIndex = 43;
-            this.pictureBox4K_03.TabStop = false;
             // 
             // label16
             // 
@@ -543,6 +333,216 @@
             this.label19.Size = new System.Drawing.Size(19, 13);
             this.label19.TabIndex = 47;
             this.label19.Text = "19";
+            // 
+            // pictureBox4K_03
+            // 
+            this.pictureBox4K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox4K_03.Location = new System.Drawing.Point(332, 25);
+            this.pictureBox4K_03.Name = "pictureBox4K_03";
+            this.pictureBox4K_03.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox4K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4K_03.TabIndex = 43;
+            this.pictureBox4K_03.TabStop = false;
+            // 
+            // pictureBox4K_02
+            // 
+            this.pictureBox4K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox4K_02.Location = new System.Drawing.Point(332, 197);
+            this.pictureBox4K_02.Name = "pictureBox4K_02";
+            this.pictureBox4K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox4K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4K_02.TabIndex = 42;
+            this.pictureBox4K_02.TabStop = false;
+            // 
+            // pictureBox4K_01
+            // 
+            this.pictureBox4K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox4K_01.Location = new System.Drawing.Point(332, 369);
+            this.pictureBox4K_01.Name = "pictureBox4K_01";
+            this.pictureBox4K_01.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox4K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4K_01.TabIndex = 41;
+            this.pictureBox4K_01.TabStop = false;
+            // 
+            // pictureBox3K_03
+            // 
+            this.pictureBox3K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_03.Location = new System.Drawing.Point(298, 24);
+            this.pictureBox3K_03.Name = "pictureBox3K_03";
+            this.pictureBox3K_03.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_03.TabIndex = 39;
+            this.pictureBox3K_03.TabStop = false;
+            // 
+            // pictureBox3K_02
+            // 
+            this.pictureBox3K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_02.Location = new System.Drawing.Point(298, 196);
+            this.pictureBox3K_02.Name = "pictureBox3K_02";
+            this.pictureBox3K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_02.TabIndex = 38;
+            this.pictureBox3K_02.TabStop = false;
+            // 
+            // pictureBox3K_01
+            // 
+            this.pictureBox3K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3K_01.Location = new System.Drawing.Point(298, 368);
+            this.pictureBox3K_01.Name = "pictureBox3K_01";
+            this.pictureBox3K_01.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3K_01.TabIndex = 37;
+            this.pictureBox3K_01.TabStop = false;
+            // 
+            // pictureBox2K_03
+            // 
+            this.pictureBox2K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox2K_03.Location = new System.Drawing.Point(264, 25);
+            this.pictureBox2K_03.Name = "pictureBox2K_03";
+            this.pictureBox2K_03.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox2K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2K_03.TabIndex = 36;
+            this.pictureBox2K_03.TabStop = false;
+            // 
+            // pictureBox2K_02
+            // 
+            this.pictureBox2K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox2K_02.Location = new System.Drawing.Point(264, 196);
+            this.pictureBox2K_02.Name = "pictureBox2K_02";
+            this.pictureBox2K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox2K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2K_02.TabIndex = 35;
+            this.pictureBox2K_02.TabStop = false;
+            // 
+            // pictureBox2K_01
+            // 
+            this.pictureBox2K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox2K_01.Location = new System.Drawing.Point(264, 368);
+            this.pictureBox2K_01.Name = "pictureBox2K_01";
+            this.pictureBox2K_01.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox2K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2K_01.TabIndex = 34;
+            this.pictureBox2K_01.TabStop = false;
+            // 
+            // pictureBox1K_03
+            // 
+            this.pictureBox1K_03.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox1K_03.Location = new System.Drawing.Point(230, 24);
+            this.pictureBox1K_03.Name = "pictureBox1K_03";
+            this.pictureBox1K_03.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox1K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1K_03.TabIndex = 33;
+            this.pictureBox1K_03.TabStop = false;
+            // 
+            // pictureBox1K_02
+            // 
+            this.pictureBox1K_02.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox1K_02.Location = new System.Drawing.Point(230, 196);
+            this.pictureBox1K_02.Name = "pictureBox1K_02";
+            this.pictureBox1K_02.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox1K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1K_02.TabIndex = 32;
+            this.pictureBox1K_02.TabStop = false;
+            // 
+            // pictureBox1K_01
+            // 
+            this.pictureBox1K_01.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox1K_01.Location = new System.Drawing.Point(230, 368);
+            this.pictureBox1K_01.Name = "pictureBox1K_01";
+            this.pictureBox1K_01.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox1K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1K_01.TabIndex = 31;
+            this.pictureBox1K_01.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox9.Location = new System.Drawing.Point(491, 25);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 14;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox8.Location = new System.Drawing.Point(491, 197);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 13;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox7.Location = new System.Drawing.Point(491, 369);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 12;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox6.Location = new System.Drawing.Point(457, 25);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox5.Location = new System.Drawing.Point(457, 197);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 10;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox4.Location = new System.Drawing.Point(457, 369);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox3.Location = new System.Drawing.Point(423, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox2.Location = new System.Drawing.Point(423, 197);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::dekoder_cyfrowy.Properties.Resources._0;
+            this.pictureBox1.Location = new System.Drawing.Point(423, 369);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -595,30 +595,31 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "GURT";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMiesiac)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRok)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_03)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4K_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3K_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2K_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1K_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
