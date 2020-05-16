@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,14 @@ namespace dekoder_cyfrowy
         {
             InitializeComponent();
             pictureBox1.Image = Properties.Resources._0;
+
+            numMiesiac.Value = Convert.ToDecimal(DateTime.Now.Month.ToString());
+            //string rr = Convert.ToDecimal(DateTime.Now.Year.ToString());
+            string rr = DateTime.Now.Year.ToString();
+            string roczek = rr[2]+"" + rr[3]+"";
+            //MessageBox.Show(roczek);
+            numRok.Value = Convert.ToDecimal(roczek);
+            //numRok.Value = int_rr;
         }
 public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         {   //przekazano do tej procedury nazwę Pictureboxa który właśnie ustawiamy (jeden na raz)
@@ -87,10 +96,12 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         }
         private void button0_Click(object sender, EventArgs e)
         {
-            //ToolTip1.SetToolTip(Label3, "Label for Label1");
-
+            
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
-            numer = numer + "000000000";        //za krótki string wysypywał prog.
+            numer = numer + "000000";        //za krótki string wysypywał prog.
+           
+            if (numer.Length < 16)
+            { MessageBox.Show("zbyt krótki numer pocisku, \n uzupełniam zerami", "komunikat"); }
 
             string miesiac=Convert.ToString(numMiesiac.Value);
             if (numMiesiac.Value < 10)
@@ -107,7 +118,9 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
             label1.Text = "6"; label2.Text = "0"; label3.Text = "2";
             lbl_dlugi.Text = "602 11" + miesiac[0] + " " + Convert.ToString(miesiac[1]) + Convert.ToString(rok[1]) + "9" + " " + "02" + Convert.ToString(numer[0]) + " " +
-                Convert.ToString(numer[1])+ Convert.ToString(numer[2])+ Convert.ToString(numer[3]);
+                Convert.ToString(numer[1])+ Convert.ToString(numer[2])+ Convert.ToString(numer[3]) + " " +
+                Convert.ToString(numer[4]) + Convert.ToString(numer[5]) + Convert.ToString(numer[6]) + " " +
+                Convert.ToString(numer[7]) + Convert.ToString(numer[8]) + Convert.ToString(numer[9]);
 
             dekoduj(pictureBox2K_01, '1');          //dzień sprawdzenia, nie drukowany
             dekoduj(pictureBox2K_02, '1');          //dzień sprawdzenia, nie drukowany
