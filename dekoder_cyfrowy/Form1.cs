@@ -22,6 +22,11 @@ namespace dekoder_cyfrowy
             string rr = DateTime.Now.Year.ToString();
             string roczek = rr[2]+"" + rr[3]+"";
             numRok.Value = Convert.ToDecimal(roczek);
+
+            label11.Visible = false; label12.Visible = false;
+            label14.Visible = false; label15.Visible = false;
+            label19.Visible = false; label27.Visible = false;
+            label36.Visible = false;
         }
 public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         {   //przekazano do tej procedury nazwę Pictureboxa który właśnie ustawiamy (jeden na raz)
@@ -132,8 +137,6 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
             label7.Text = miesiac[1] + ""; label8.Text = rok[1] + ""; label9.Text = "9";
             label15.Text = Convert.ToString(miesiac[1]) + Convert.ToString(rok[1]) + "9"+" - sprawdzenie: [m, r, l.kart]";
-         //MessageBox.Show( rok[1]+"", "rok");
-         //MessageBox.Show(miesiac[1] + "", "miesiąc");
 
             label16.Text = "0" + ""; label17.Text = "2" + ""; label18.Text = Convert.ToString(numer[0]);
             label19.Text = "028" + " - 02(zawsze) + " + Convert.ToString(numer[0]) + " początek typu pocisku";
@@ -162,6 +165,11 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox7, numer[7]);
             dekoduj(pictureBox8, numer[8]); 
             dekoduj(pictureBox9, numer[9]);
+
+            label11.Visible = true; label12.Visible = true;
+            label14.Visible = true; label15.Visible = true;
+            label19.Visible = true; label27.Visible = true;
+            label36.Visible = true;
 
         }
         private void Form1_Load(object sender, System.EventArgs e)

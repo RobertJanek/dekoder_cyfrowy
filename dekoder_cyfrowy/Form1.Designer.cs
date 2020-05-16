@@ -90,6 +90,7 @@
             this.label36 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMiesiac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRok)).BeginInit();
@@ -231,7 +232,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(7, 311);
+            this.label10.Location = new System.Drawing.Point(15, 347);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(67, 13);
             this.label10.TabIndex = 24;
@@ -240,16 +241,16 @@
             // lbl_dlugi
             // 
             this.lbl_dlugi.AutoSize = true;
-            this.lbl_dlugi.Location = new System.Drawing.Point(10, 328);
+            this.lbl_dlugi.Location = new System.Drawing.Point(18, 364);
             this.lbl_dlugi.Name = "lbl_dlugi";
-            this.lbl_dlugi.Size = new System.Drawing.Size(25, 13);
+            this.lbl_dlugi.Size = new System.Drawing.Size(76, 13);
             this.lbl_dlugi.TabIndex = 25;
-            this.lbl_dlugi.Text = "602";
+            this.lbl_dlugi.Text = "numer pocisku";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(10, 353);
+            this.label12.Location = new System.Drawing.Point(7, 424);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(137, 13);
             this.label12.TabIndex = 26;
@@ -308,7 +309,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(10, 366);
+            this.label14.Location = new System.Drawing.Point(7, 437);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(19, 13);
             this.label14.TabIndex = 30;
@@ -317,7 +318,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(10, 379);
+            this.label15.Location = new System.Drawing.Point(7, 450);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(19, 13);
             this.label15.TabIndex = 40;
@@ -356,7 +357,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(10, 392);
+            this.label19.Location = new System.Drawing.Point(7, 463);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(19, 13);
             this.label19.TabIndex = 47;
@@ -599,9 +600,9 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(10, 107);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(127, 13);
+            this.label20.Size = new System.Drawing.Size(260, 13);
             this.label20.TabIndex = 48;
-            this.label20.Text = "wprowadź numer pocisku";
+            this.label20.Text = "wprowadź numer pocisku [pocz. 851 powinno zostać]";
             // 
             // label21
             // 
@@ -654,7 +655,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(10, 405);
+            this.label27.Location = new System.Drawing.Point(7, 476);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(19, 13);
             this.label27.TabIndex = 55;
@@ -663,11 +664,11 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(476, 220);
+            this.label29.Location = new System.Drawing.Point(158, 291);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(202, 13);
+            this.label29.Size = new System.Drawing.Size(74, 13);
             this.label29.TabIndex = 57;
-            this.label29.Text = "doddać sprawdzenie nr miesiąca automat";
+            this.label29.Text = "czytaj od dołu";
             // 
             // label35
             // 
@@ -732,7 +733,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 418);
+            this.label11.Location = new System.Drawing.Point(7, 489);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(19, 13);
             this.label11.TabIndex = 64;
@@ -742,7 +743,7 @@
             // 
             this.label36.AutoSize = true;
             this.label36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label36.Location = new System.Drawing.Point(10, 431);
+            this.label36.Location = new System.Drawing.Point(7, 502);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(19, 13);
             this.label36.TabIndex = 65;
@@ -758,11 +759,22 @@
             this.label3.Text = "0";
             this.toolTip1.SetToolTip(this.label3, "strefa klimatyczna");
             // 
+            // label23
+            // 
+            this.label23.AutoEllipsis = true;
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(277, 517);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(283, 13);
+            this.label23.TabIndex = 67;
+            this.label23.Text = "najedź myszą na kartę perforowaną, oraz na cyfry arabskie";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 556);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.label11);
@@ -918,6 +930,7 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label23;
     }
 }
 
