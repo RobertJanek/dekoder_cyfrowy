@@ -91,6 +91,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMiesiac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRok)).BeginInit();
@@ -769,11 +770,21 @@
             this.label23.TabIndex = 67;
             this.label23.Text = "najedź myszą na kartę perforowaną, oraz na cyfry arabskie";
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(532, 65);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(136, 13);
+            this.label28.TabIndex = 68;
+            this.label28.Text = "po 851 jest numer kwartału";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 556);
+            this.Controls.Add(this.label28);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label36);
@@ -931,6 +942,7 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label28;
     }
 }
 
