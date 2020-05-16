@@ -104,7 +104,8 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox1K_03, '2');      //strefa, stałe
 
             label1.Text = "6"; label2.Text = "0"; label3.Text = "2";
-            label11.Text = "602 11" + miesiac[0] + " " + miesiac[1] + rok[1] + "9";
+            lbl_dlugi.Text = "602 11" + miesiac[0] + " " + Convert.ToString(miesiac[1]) + Convert.ToString(rok[1]) + "9" + " " + "02" + Convert.ToString(numer[0]) + " " +
+                Convert.ToString(numer[1])+ Convert.ToString(numer[2])+ Convert.ToString(numer[3]);
 
             dekoduj(pictureBox2K_01, '1');          //dzień sprawdzenia, nie drukowany
             dekoduj(pictureBox2K_02, '1');          //dzień sprawdzenia, nie drukowany
@@ -119,28 +120,35 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
             label7.Text = miesiac[1] + ""; label8.Text = rok[1] + ""; label9.Text = "9";
             label15.Text = Convert.ToString(miesiac[1]) + Convert.ToString(rok[1]) + "9"+" - sprawdzenie: [m, r, l.kart]";
-         MessageBox.Show( rok[1]+"", "rok");
-         MessageBox.Show(miesiac[1] + "", "miesiąc");
+         //MessageBox.Show( rok[1]+"", "rok");
+         //MessageBox.Show(miesiac[1] + "", "miesiąc");
 
-            label16.Text = "0" + ""; label17.Text = "2" + ""; label18.Text = "8";
-            label19.Text = "028" + " - 02(zawsze) + 8(numer pocisku)";
+            label16.Text = "0" + ""; label17.Text = "2" + ""; label18.Text = Convert.ToString(numer[0]);
+            label19.Text = "028" + " - 02(zawsze) + " + Convert.ToString(numer[0]) + " początek typu pocisku";
 
-            dekoduj(pictureBox4K_01, '0');          //zawsze
-            dekoduj(pictureBox4K_02, '2');          //zawsze
-            dekoduj(pictureBox4K_03, '8');          //początek numeru [znak1]
+            dekoduj(pictureBox4K_01, '0');              //zawsze
+            dekoduj(pictureBox4K_02, '2');              //zawsze
+            dekoduj(pictureBox4K_03, numer[0]);         //początek numeru [znak1]
 
+            label24.Text = Convert.ToString(numer[1]); label25.Text = Convert.ToString(numer[2]); label26.Text = Convert.ToString(numer[3]);
+            label27.Text = Convert.ToString(numer[1]) + Convert.ToString(numer[2]) + Convert.ToString(numer[3]) + " - typ pocisku[8511 lub 8514]";
 
-            dekoduj(pictureBox1, numer[0]);
-            dekoduj(pictureBox2, numer[1]);   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
-            dekoduj(pictureBox3, numer[2]);
+            dekoduj(pictureBox1, numer[1]);
+            dekoduj(pictureBox2, numer[2]);   //wywołanie funkcji i przekazanie jej nazwy PictureBoxa oraz cyferki jaką trzeba wyświetlić
+            dekoduj(pictureBox3, numer[3]);
 
-            dekoduj(pictureBox4, numer[3]);
-            dekoduj(pictureBox5, numer[4]);
-            dekoduj(pictureBox6, numer[5]);
+            label30.Text = Convert.ToString(numer[4]); label31.Text = Convert.ToString(numer[5]); label32.Text = Convert.ToString(numer[6]);
+            label11.Text = Convert.ToString(numer[4]) + Convert.ToString(numer[5]) + Convert.ToString(numer[6]) + " - numer pocisku";
 
-            dekoduj(pictureBox7, numer[6]);
-            dekoduj(pictureBox8, numer[7]); 
-            dekoduj(pictureBox9, numer[8]);
+            dekoduj(pictureBox4, numer[4]);
+            dekoduj(pictureBox5, numer[5]);
+            dekoduj(pictureBox6, numer[6]);
+
+            label33.Text = Convert.ToString(numer[7]); label34.Text = Convert.ToString(numer[8]); label35.Text = Convert.ToString(numer[9]);
+
+            dekoduj(pictureBox7, numer[7]);
+            dekoduj(pictureBox8, numer[8]); 
+            dekoduj(pictureBox9, numer[9]);
 
         }
 
