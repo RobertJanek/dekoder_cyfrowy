@@ -75,7 +75,6 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -188,7 +187,7 @@
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 19;
             this.label5.Text = "0";
-            this.toolTip1.SetToolTip(this.label5, "dzień: jedności");
+            this.toolTip1.SetToolTip(this.label5, "dzień kontroli: jedności");
             // 
             // label6
             // 
@@ -333,6 +332,7 @@
             this.label16.Size = new System.Drawing.Size(13, 13);
             this.label16.TabIndex = 44;
             this.label16.Text = "0";
+            this.toolTip1.SetToolTip(this.label16, "zero - bo tak!");
             // 
             // label17
             // 
@@ -342,6 +342,7 @@
             this.label17.Size = new System.Drawing.Size(13, 13);
             this.label17.TabIndex = 45;
             this.label17.Text = "0";
+            this.toolTip1.SetToolTip(this.label17, "dwa - bo tak!");
             // 
             // label18
             // 
@@ -351,6 +352,7 @@
             this.label18.Size = new System.Drawing.Size(13, 13);
             this.label18.TabIndex = 46;
             this.label18.Text = "0";
+            this.toolTip1.SetToolTip(this.label18, "pierwsza cyfra z numeru seryjnego [typ pocisku]");
             // 
             // label19
             // 
@@ -370,6 +372,7 @@
             this.pictureBox4K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4K_03.TabIndex = 43;
             this.pictureBox4K_03.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4K_03, "pierwsza cyfra z numeru seryjnego [typ pocisku]");
             // 
             // pictureBox4K_02
             // 
@@ -380,6 +383,7 @@
             this.pictureBox4K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4K_02.TabIndex = 42;
             this.pictureBox4K_02.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4K_02, "dwa - bo tak!");
             // 
             // pictureBox4K_01
             // 
@@ -390,6 +394,7 @@
             this.pictureBox4K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4K_01.TabIndex = 41;
             this.pictureBox4K_01.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4K_01, "zero - bo tak!");
             // 
             // pictureBox3K_03
             // 
@@ -400,6 +405,7 @@
             this.pictureBox3K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3K_03.TabIndex = 39;
             this.pictureBox3K_03.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox3K_03, "liczba kart (przyjąłem 9)");
             // 
             // pictureBox3K_02
             // 
@@ -410,6 +416,7 @@
             this.pictureBox3K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3K_02.TabIndex = 38;
             this.pictureBox3K_02.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox3K_02, "rok kontroli: cyfra jedności");
             // 
             // pictureBox3K_01
             // 
@@ -420,6 +427,7 @@
             this.pictureBox3K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3K_01.TabIndex = 37;
             this.pictureBox3K_01.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox3K_01, "miesiąc  kontroli: jedności");
             // 
             // pictureBox2K_03
             // 
@@ -430,6 +438,7 @@
             this.pictureBox2K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2K_03.TabIndex = 36;
             this.pictureBox2K_03.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2K_03, "miesiąc kontroli: dziesiątki");
             // 
             // pictureBox2K_02
             // 
@@ -440,6 +449,7 @@
             this.pictureBox2K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2K_02.TabIndex = 35;
             this.pictureBox2K_02.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2K_02, "dzień kontroli: jedności");
             // 
             // pictureBox2K_01
             // 
@@ -450,6 +460,7 @@
             this.pictureBox2K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2K_01.TabIndex = 34;
             this.pictureBox2K_01.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2K_01, "dzień: dziesiątki");
             // 
             // pictureBox1K_03
             // 
@@ -460,6 +471,7 @@
             this.pictureBox1K_03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1K_03.TabIndex = 33;
             this.pictureBox1K_03.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1K_03, "strefa klimatyczna");
             // 
             // pictureBox1K_02
             // 
@@ -470,6 +482,7 @@
             this.pictureBox1K_02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1K_02.TabIndex = 32;
             this.pictureBox1K_02.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1K_02, "strefa klimatyczna");
             // 
             // pictureBox1K_01
             // 
@@ -480,6 +493,7 @@
             this.pictureBox1K_01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1K_01.TabIndex = 31;
             this.pictureBox1K_01.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1K_01, "typ ASK");
             // 
             // pictureBox9
             // 
@@ -490,6 +504,7 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 14;
             this.pictureBox9.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox9, "numer pocisku");
             // 
             // pictureBox8
             // 
@@ -501,6 +516,7 @@
             this.pictureBox8.TabIndex = 13;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Tag = "";
+            this.toolTip1.SetToolTip(this.pictureBox8, "numer pocisku");
             // 
             // pictureBox7
             // 
@@ -511,6 +527,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 12;
             this.pictureBox7.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox7, "numer pocisku");
             // 
             // pictureBox6
             // 
@@ -521,6 +538,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox6, "numer pocisku");
             // 
             // pictureBox5
             // 
@@ -531,6 +549,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox5, "numer pocisku");
             // 
             // pictureBox4
             // 
@@ -541,6 +560,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4, "numer pocisku");
             // 
             // pictureBox3
             // 
@@ -551,6 +571,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox3, "4 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // pictureBox2
             // 
@@ -561,6 +582,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2, "3 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // pictureBox1
             // 
@@ -571,6 +593,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1, "2 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // label20
             // 
@@ -599,15 +622,6 @@
             this.label22.TabIndex = 50;
             this.label22.Text = "rok";
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(547, 136);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(92, 13);
-            this.label23.TabIndex = 51;
-            this.label23.Text = "doddać OnMouse";
-            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -616,6 +630,7 @@
             this.label24.Size = new System.Drawing.Size(13, 13);
             this.label24.TabIndex = 52;
             this.label24.Text = "0";
+            this.toolTip1.SetToolTip(this.label24, "2 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // label25
             // 
@@ -625,6 +640,7 @@
             this.label25.Size = new System.Drawing.Size(13, 13);
             this.label25.TabIndex = 53;
             this.label25.Text = "0";
+            this.toolTip1.SetToolTip(this.label25, "3 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // label26
             // 
@@ -634,6 +650,7 @@
             this.label26.Size = new System.Drawing.Size(13, 13);
             this.label26.TabIndex = 54;
             this.label26.Text = "0";
+            this.toolTip1.SetToolTip(this.label26, "4 cyfra z numeru seryjnego [typ pocisku 8511 lub 8514]");
             // 
             // label27
             // 
@@ -670,6 +687,7 @@
             this.label35.Size = new System.Drawing.Size(13, 13);
             this.label35.TabIndex = 58;
             this.label35.Text = "0";
+            this.toolTip1.SetToolTip(this.label35, "numer pocisku");
             // 
             // label30
             // 
@@ -679,6 +697,7 @@
             this.label30.Size = new System.Drawing.Size(13, 13);
             this.label30.TabIndex = 59;
             this.label30.Text = "0";
+            this.toolTip1.SetToolTip(this.label30, "numer pocisku");
             // 
             // label31
             // 
@@ -688,6 +707,7 @@
             this.label31.Size = new System.Drawing.Size(13, 13);
             this.label31.TabIndex = 60;
             this.label31.Text = "0";
+            this.toolTip1.SetToolTip(this.label31, "numer pocisku");
             // 
             // label32
             // 
@@ -697,6 +717,7 @@
             this.label32.Size = new System.Drawing.Size(13, 13);
             this.label32.TabIndex = 61;
             this.label32.Text = "0";
+            this.toolTip1.SetToolTip(this.label32, "numer pocisku");
             // 
             // label33
             // 
@@ -706,6 +727,7 @@
             this.label33.Size = new System.Drawing.Size(13, 13);
             this.label33.TabIndex = 62;
             this.label33.Text = "0";
+            this.toolTip1.SetToolTip(this.label33, "numer pocisku");
             // 
             // label34
             // 
@@ -715,6 +737,7 @@
             this.label34.Size = new System.Drawing.Size(13, 13);
             this.label34.TabIndex = 63;
             this.label34.Text = "0";
+            this.toolTip1.SetToolTip(this.label34, "numer pocisku");
             // 
             // label11
             // 
@@ -765,7 +788,6 @@
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -892,7 +914,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
