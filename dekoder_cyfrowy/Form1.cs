@@ -19,12 +19,9 @@ namespace dekoder_cyfrowy
             pictureBox1.Image = Properties.Resources._0;
 
             numMiesiac.Value = Convert.ToDecimal(DateTime.Now.Month.ToString());
-            //string rr = Convert.ToDecimal(DateTime.Now.Year.ToString());
             string rr = DateTime.Now.Year.ToString();
             string roczek = rr[2]+"" + rr[3]+"";
-            //MessageBox.Show(roczek);
             numRok.Value = Convert.ToDecimal(roczek);
-            //numRok.Value = int_rr;
         }
 public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         {   //przekazano do tej procedury nazwę Pictureboxa który właśnie ustawiamy (jeden na raz)
