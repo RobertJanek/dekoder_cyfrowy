@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button0 = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -90,6 +90,8 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMiesiac)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRok)).BeginInit();
@@ -156,6 +158,7 @@
             this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "0";
+            this.toolTip1.SetToolTip(this.label1, "typ ASK");
             // 
             // label2
             // 
@@ -165,15 +168,7 @@
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "0";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 220);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 13);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "0";
+            this.toolTip1.SetToolTip(this.label2, "strefa klimatyczna");
             // 
             // label4
             // 
@@ -183,6 +178,7 @@
             this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 18;
             this.label4.Text = "0";
+            this.toolTip1.SetToolTip(this.label4, "dzień: dziesiątki");
             // 
             // label5
             // 
@@ -192,6 +188,7 @@
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 19;
             this.label5.Text = "0";
+            this.toolTip1.SetToolTip(this.label5, "dzień: jedności");
             // 
             // label6
             // 
@@ -201,6 +198,7 @@
             this.label6.Size = new System.Drawing.Size(13, 13);
             this.label6.TabIndex = 20;
             this.label6.Text = "0";
+            this.toolTip1.SetToolTip(this.label6, "miesiąc kontroli: dziesiątki");
             // 
             // label7
             // 
@@ -210,6 +208,7 @@
             this.label7.Size = new System.Drawing.Size(13, 13);
             this.label7.TabIndex = 21;
             this.label7.Text = "0";
+            this.toolTip1.SetToolTip(this.label7, "miesiąc  kontroli: jedności");
             // 
             // label8
             // 
@@ -219,6 +218,7 @@
             this.label8.Size = new System.Drawing.Size(13, 13);
             this.label8.TabIndex = 22;
             this.label8.Text = "0";
+            this.toolTip1.SetToolTip(this.label8, "rok kontroli: cyfra jedności");
             // 
             // label9
             // 
@@ -228,6 +228,7 @@
             this.label9.Size = new System.Drawing.Size(13, 13);
             this.label9.TabIndex = 23;
             this.label9.Text = "0";
+            this.toolTip1.SetToolTip(this.label9, "liczba kart (przyjąłem 9)");
             // 
             // label10
             // 
@@ -727,17 +728,29 @@
             // label36
             // 
             this.label36.AutoSize = true;
+            this.label36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label36.Location = new System.Drawing.Point(10, 431);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(19, 13);
             this.label36.TabIndex = 65;
             this.label36.Text = "36";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 220);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.TabIndex = 66;
+            this.label3.Text = "0";
+            this.toolTip1.SetToolTip(this.label3, "strefa klimatyczna");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 556);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label34);
@@ -786,7 +799,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox9);
@@ -847,7 +859,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -896,6 +907,8 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

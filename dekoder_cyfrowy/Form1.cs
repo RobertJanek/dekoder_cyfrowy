@@ -87,6 +87,8 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         }
         private void button0_Click(object sender, EventArgs e)
         {
+            //ToolTip1.SetToolTip(Label3, "Label for Label1");
+
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
             numer = numer + "000000000";        //za krótki string wysypywał prog.
 
@@ -145,16 +147,18 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
             dekoduj(pictureBox6, numer[6]);
 
             label33.Text = Convert.ToString(numer[7]); label34.Text = Convert.ToString(numer[8]); label35.Text = Convert.ToString(numer[9]);
+            label36.Text = Convert.ToString(numer[7]) + Convert.ToString(numer[8]) + Convert.ToString(numer[9]) + " - numer pocisku";
 
             dekoduj(pictureBox7, numer[7]);
             dekoduj(pictureBox8, numer[8]); 
             dekoduj(pictureBox9, numer[9]);
 
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, System.EventArgs e)
         {
-
+           //
         }
+
+
     }
 }
