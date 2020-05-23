@@ -177,6 +177,24 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
            //
         }
 
+        private void numericUpDown3_ValueChanged(object sender, EventArgs e)
+        {
+            if (numMiesiacProd.Value < 13)
+                numericUpDown1.Value = Convert.ToDecimal(8514);
+            if (numMiesiacProd.Value < 10)
+                numericUpDown1.Value = Convert.ToDecimal(8513);
+            if (numMiesiacProd.Value < 7)
+                numericUpDown1.Value = Convert.ToDecimal(8512);
+            if (numMiesiacProd.Value < 4)
+                numericUpDown1.Value = Convert.ToDecimal(8511);
+        }
 
+        private void numRokProd_ValueChanged(object sender, EventArgs e)
+        {
+            string RokProd = Convert.ToString(numRokProd.Value);
+            RokProd = RokProd[1];
+            string tekst = Convert.ToString(numericUpDown1.Value);
+
+        }
     }
 }
