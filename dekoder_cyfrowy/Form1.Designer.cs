@@ -809,9 +809,9 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(12, 71);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(90, 13);
+            this.label39.Size = new System.Drawing.Size(74, 13);
             this.label39.TabIndex = 71;
-            this.label39.Text = "data sprawdzenia";
+            this.label39.Text = "data produkcji";
             // 
             // numRokProd
             // 

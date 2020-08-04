@@ -96,9 +96,10 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
             };
         }
+        //void numericUpDown3_ValueChanged(object sender, EventArgs e);
+
         private void button0_Click(object sender, EventArgs e)
         {
-            
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
             numer = numer + "000000";        //za krótki string wysypywał prog.
            
@@ -190,11 +191,11 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         }
 
         private void numRokProd_ValueChanged(object sender, EventArgs e)
-        {
+        {       
             string RokProd = Convert.ToString(numRokProd.Value);
-            RokProd = RokProd[1];
-            string tekst = Convert.ToString(numericUpDown1.Value);
-
+            char RokProd_1cyfra = RokProd[1];
+            //string tekst = Convert.ToString(numericUpDown1.Value);
+            MessageBox.Show(RokProd_1cyfra+"","Alert");       
         }
     }
 }
