@@ -100,6 +100,16 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
         private void button0_Click(object sender, EventArgs e)
         {
+            // ustalenie nru kwartału i dodanie do numeru
+                //if (numMiesiacProd.Value < 13)
+                //    numericUpDown1.Value = Convert.ToDecimal(8514);
+                //if (numMiesiacProd.Value < 10)
+                //    numericUpDown1.Value = Convert.ToDecimal(8513);
+                //if (numMiesiacProd.Value < 7)
+                //    numericUpDown1.Value = Convert.ToDecimal(8512);
+                //if (numMiesiacProd.Value < 4)
+                //    numericUpDown1.Value = Convert.ToDecimal(8511);
+            
             string numer = Convert.ToString(numericUpDown1.Value);      //rzutowanie liczby do stringa (tablicy charów);
             numer = numer + "000000";        //za krótki string wysypywał prog.
            
@@ -180,14 +190,14 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
 
         private void numericUpDown3_ValueChanged(object sender, EventArgs e)
         {
-            if (numMiesiacProd.Value < 13)
-                numericUpDown1.Value = Convert.ToDecimal(8514);
-            if (numMiesiacProd.Value < 10)
-                numericUpDown1.Value = Convert.ToDecimal(8513);
-            if (numMiesiacProd.Value < 7)
-                numericUpDown1.Value = Convert.ToDecimal(8512);
-            if (numMiesiacProd.Value < 4)
-                numericUpDown1.Value = Convert.ToDecimal(8511);
+            //if (numMiesiacProd.Value < 13)
+            //    numericUpDown1.Value = Convert.ToDecimal(8514);
+            //if (numMiesiacProd.Value < 10)
+            //    numericUpDown1.Value = Convert.ToDecimal(8513);
+            //if (numMiesiacProd.Value < 7)
+            //    numericUpDown1.Value = Convert.ToDecimal(8512);
+            //if (numMiesiacProd.Value < 4)
+            //    numericUpDown1.Value = Convert.ToDecimal(8511);
         }
 
         private void numRokProd_ValueChanged(object sender, EventArgs e)
