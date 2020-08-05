@@ -194,8 +194,8 @@ public void dekoduj(PictureBox ktory_pikczer, char cyfra)
         {       
             string RokProd = Convert.ToString(numRokProd.Value);
             char RokProd_1cyfra = RokProd[1];
-            //string tekst = Convert.ToString(numericUpDown1.Value);
-            MessageBox.Show(RokProd_1cyfra+"","Alert");       
+            MessageBox.Show(RokProd_1cyfra+"","Alert");
+            numericUpDown1.Value = Convert.ToDecimal(Convert.ToString(numericUpDown1.Value) + Convert.ToString(RokProd_1cyfra));
         }
     }
 }
